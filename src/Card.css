@@ -1,0 +1,271 @@
+.card1{
+    background: linear-gradient(to left, #7f83e2,#a5a8eb);
+    height: 440px;
+    width: 300px;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 20px; 
+    
+    
+    
+ 
+}
+
+
+
+.professional{
+font-weight: 700
+;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+
+
+
+}
+
+
+.divmaior  {
+    display: flex;
+flex-direction: column;
+
+}
+
+.container{
+display: flex;
+height: 230px;
+flex-direction: column;
+justify-content: end;
+margin-top: 70px;
+
+
+
+
+
+
+
+}
+
+
+
+
+.button{
+    
+    border: none;
+    width: 200px;
+
+    padding: 8px;
+    color: white;
+    
+ 
+    
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    border: 1.8px solid white;
+
+
+}
+.buttoContainer{
+ 
+    height: 70px;
+    width: 260px;
+    color: white;
+     display: flex;
+     align-items: end;
+     margin-left:  20px;
+    justify-content: center;
+    margin-top:6px;
+
+
+    
+
+
+}
+.buttoContainer1{
+text-align: center;
+ align-items: center;
+    height: 70px;
+    width: 260px;
+;
+     display: flex;
+     align-items: end;
+     margin-left:  28px;
+    justify-content: center;
+    margin-top:38px;
+
+
+}
+.button1{
+    height: 40px;
+    border: none;
+    width: 280px;
+    margin-right: 16px;
+    border:  2px solid red;
+    color: white;
+    
+margin-bottom: 20px;
+    
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    border: 1.8px solid white;
+
+
+
+}
+
+.button:hover{
+color: black;
+
+
+}
+
+.Linha1{
+    margin: 2px;
+    margin-left: 40px; 
+    transform: scaleY(0.1);
+  border: 0.1px solid #b3b6f1;
+    width: 220px;
+    border-radius: 70px;    
+}
+.card-text2{
+
+
+
+    font-size: 45px;
+}
+
+
+.Card{
+
+
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.divMaior2{
+
+    display: flex;
+}
+
+.card2{
+align-items: center;
+background-color:#ffffff;
+height: 400px;
+width: 280px;
+margin-top: 20px;
+border-radius: 12px;
+padding-top: 5px;
+padding-bottom: 20px; 
+box-shadow: 4px 4px 10px #eae7fc; /* Sombra roxa suave */
+
+
+
+}
+
+.professional1{
+    color: black;
+
+
+
+}
+
+.card2 p{
+    color: black;
+    
+}
+
+.card2 button{
+    margin-right: 20px;
+    background-color:white
+}
+
+
+
+@media (max-width: 768px) {
+    .divMaior2 {
+        display: flex;
+        flex-direction: column; /* Exibe os cartões em coluna */
+        overflow-y:auto; /* Permite o scroll vertical */
+        max-height: 80vh; /* Limita a altura máxima da div */
+        padding: 10px; /* Espaço interno */
+        gap: 15px; /* Espaço entre os cards */
+    }
+    .divMaior2::-webkit-scrollbar {
+        width: 0; /* Remove a largura da barra de rolagem */
+        background: transparent; /* Fundo da barra de rolagem */
+    }
+    
+    
+    
+
+    .card1, .card2 {
+        width: 200px;
+        height: 350px;
+    }
+
+
+    .professional, .professional1 {
+        font-size: 16px;
+    }
+
+    .container {
+        height: 180px;
+        margin-top: 40px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .Linha1 {
+        width: 160px;
+        margin-left: 20px;
+    }
+
+    .button {
+        width: 200px; /* Aumenta um pouco para melhor alinhamento */
+        font-size: 12px;
+        margin-right: 100px;
+ 
+    }
+    .button1{
+width: 170px;
+height: 35px;
+font-size: 12px;
+margin-left: 20px;
+
+
+
+
+    }
+
+.buttoContainer1{
+    width: 290px; /* Mesma largura do botão */
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    margin-left: -45px;
+        margin-top: 20px;
+      
+
+
+
+
+
+}
+    .buttoContainer {
+        width: 200px; /* Mesma largura do botão */
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+      
+    }
+
+}
